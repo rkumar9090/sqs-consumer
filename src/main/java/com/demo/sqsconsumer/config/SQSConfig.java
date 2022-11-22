@@ -19,7 +19,7 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 
 @Configuration
 @EnableSqs
-public class AwsSQSConfiguration {
+public class SQSConfig {
 
     @Value("${cloud.aws.region:ap-south-1}")
     private String awsRegion;
